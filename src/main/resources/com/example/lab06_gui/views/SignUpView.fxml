@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab06_gui.controller.SignUpController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="148.20001220703125" minWidth="10.0" prefWidth="94.20002441406251" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="345.3999755859375" minWidth="10.0" prefWidth="345.3999755859375" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="194.79998779296875" minWidth="10.0" prefWidth="135.19997558593747" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="156.2000150680542" minHeight="0.0" prefHeight="60.999993896484376" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="308.2" minHeight="10.0" prefHeight="53.800006103515635" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="224.7999786376953" minHeight="0.0" prefHeight="61.199975585937494" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="200.99998474121094" minHeight="10.0" prefHeight="55.79999389648438" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="154.6000213623047" minHeight="10.0" prefHeight="58.39997558593748" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="137.79998779296875" minHeight="10.0" prefHeight="52.60000000000002" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="137.79998779296875" minHeight="10.0" prefHeight="60.999975585937534" vgrow="SOMETIMES" />
+      <RowConstraints />
+  </rowConstraints>
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up Page" textAlignment="CENTER" wrappingWidth="332.5367546081543" GridPane.columnIndex="1">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Text>
+      <TextField fx:id="numeField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <TextField fx:id="prenumeField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <TextField fx:id="emailField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <TextField fx:id="parolaField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Button fx:id="SignUpButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleAddUser" prefHeight="25.0" prefWidth="110.0" style="-fx-background-color: #00D2FF;" text="SignUp" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+       <Text fx:id="textResponse" wrappingWidth="341.237521648407" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="6" GridPane.valignment="TOP" />
+       <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nume:" wrappingWidth="135.20001983642578" GridPane.rowIndex="1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Prenume:" wrappingWidth="135.73673057556152" GridPane.rowIndex="2">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Email:" wrappingWidth="136.08008575439453" GridPane.rowIndex="3">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Parola:" wrappingWidth="136.1367244720459" GridPane.rowIndex="4">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+   <padding>
+      <Insets left="40.0" />
+   </padding>
+</GridPane>

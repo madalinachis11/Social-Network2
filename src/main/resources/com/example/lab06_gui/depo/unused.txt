@@ -1,0 +1,50 @@
+/*public class HelloApplication extends Application {
+    public static void main(String[] args) {
+        launch();
+    }
+
+    @Override
+    public void start(Stage stage) throws IOException {
+        URL fxmlLocation = HelloApplication.class.getResource("views/hello-view.fxml");
+        FXMLLoader fxmlLoader = new FXMLLoader(fxmlLocation);
+        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        stage.setTitle("Hello!");
+        stage.setScene(scene);
+        stage.show();
+    }
+}*/
+
+    @Override
+    public void start(Stage primaryStage) throws IOException {
+//        String fileN = ApplicationContext.getPROPERTIES().getProperty("data.tasks.messageTask");
+//        messageTaskRepository = new InFileMessageTaskRepository
+//                (fileN, new MessageTaskValidator());
+//        messageTaskService = new MessageTaskService(messageTaskRepository);
+        //messageTaskService.getAll().forEach(System.out::println);
+
+/*stage.setTitle("Welcome to JavaFX!");
+        GridPane gr=new GridPane();
+        gr.setPadding(new Insets(20));
+        gr.setAlignment(Pos.CENTER);
+        gr.add(new Label("Username:"),0,0);
+        gr.add(new Label("Password:"),0,1);
+        gr.add(new TextField(),1,0);
+        gr.add(new PasswordField(),1,1);
+
+        //gr.add(new Button("LogIn"), 1, 2);
+        Button btn = new Button("LogIn!");
+        btn.setOnAction(new EventHandler<ActionEvent>(){
+            public void handle(ActionEvent e) {
+                try {
+                    initView(stage);
+                } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
+            }
+        });
+        gr.add(btn,1,2);
+
+        Scene scene = new Scene(gr, 300, 200);
+        stage.setTitle("Welcome to JavaFX!!");
+        stage.setScene(scene);
+        stage.show();*/

@@ -1,0 +1,10 @@
+1;Alessia;Bidian;alessia.bidian@gmail.com;trandafir
+2;Mihai;Bucur;mbucur@yahoo.com;chocolatte
+3;Alex;Okis;okishor@yahoo.com;alexokishor
+4;Andrada;Ardelean;aardelean@yahoo.com;4ndr4d4
+5;Marc;Dorelees;marcblu@gmail.com;bibicici
+6;Ceusan;Alina;aceusan@gmail.com;alinaceusan
+7;Raul;Somesan;raul@yahoo.com;sobolanmarlan
+8;Khloe;Kardashian;khloe@kardashian.com;Aw3fw3rgrthrvGFt
+9;Ioana;Cristea;ioanacristea23@gmail.com;soc1al1zar3
+10;Razvan;Berindean;xdberry@yahoo.com;topgforever
